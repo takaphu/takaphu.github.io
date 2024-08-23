@@ -17,8 +17,8 @@ function startTimer() {
 
         if (time < 0) {
             clearInterval(countdown);
-            timerElement.textContent = 'YOU DEAD';
-            timerElement.classList.add('you-dead');
+            timerElement.textContent = 'YOU DIED';
+            timerElement.classList.add('you-died');
 
             // タイムアップ時にフォントを変更
             timerElement.style.fontFamily = "Tapestry";
